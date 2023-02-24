@@ -1,0 +1,142 @@
+html {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*HERO SECTION STYLING*/
+.hero-section {
+  background: linear-gradient(to right, #00011c , #004952);
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 45px;
+}
+
+.hero-img {
+  width: 10%;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+
+.hero-img > img {
+  width: 100%;
+}
+
+.hero-btn {
+  position: absolute;
+  top:85%;
+  right: 44%;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-btn > a {
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  padding: 12px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: linear-gradient(to right, #9c5bd9 , #5bc4d9);
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-intro {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.intro {
+  color: beige;
+  font-size: 60px;
+}
+
+.name {
+  color: aqua;
+}
+
+.vector {
+  width: 100%;
+  position: absolute;
+}
+
+.vector > img {
+  width: 100%;
+}
+
+
+/*SECOND SECTION STYLING*/
+
+.section2 {
+  background:#00011c;
+  color: beige;
+}
+
+.about-head > h2 {
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.about-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 50%;
+}
+
+.profile-photo > img {
+  width: 100%;
+}
+
+.about-info > p {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0px 40px;
+}
+
+.view-resume {
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  padding: 12px 50px;
+  margin: 50px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: linear-gradient(to right, #9c5bd9 , #5bc4d9);
+}
+
+.down-resume {
+  font-weight: bold;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  padding: 12px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background: linear-gradient(to right, #9c5bd9 , #5bc4d9);
+}
+
+.hover:hover {
+  background:linear-gradient(to right, #5bc4d9 , #9c5bd9);
+  border-style: solid;
+  border-width: thin;
+  border-color: gold;
+}
